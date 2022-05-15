@@ -23,7 +23,8 @@ html {
 		't1 c  t2 .  t3 .  t4 . '
 	;
 	row-gap: 1em;
-	width: 50%;
+	width: 45%;
+	max-height: 100%;
 	color: #0D0D0D;
 	overflow-x: hidden;
 }
@@ -151,7 +152,7 @@ html {
 	border-radius: 50%;
 	border: 0.08em solid transparent;
 	background-color: #b7ab0f;
-	transition: .5s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .radio_first:checked~.slides__controls .label_first .label__circle,
@@ -228,10 +229,5 @@ html {
 @media (max-width: 480px) {
 	.slides {
 		width: 80%;
-	}
-
-	.label {
-		width: 0.3em;
-		height: 0.3em;
 	}
 }
